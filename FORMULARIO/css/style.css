@@ -1,0 +1,163 @@
+body{
+background: #111827;
+}
+.forms{
+width: 1440px;
+height: 1024px;
+
+background: #111827;
+}
+.forms h1{
+color: white;
+position: absolute;
+width: 328px;
+height: 75px;
+left: 179px;
+top: 80px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+}
+.image{
+position: absolute;
+width: 576px;
+height: 476.48px;
+left: 160px;
+top: 274px;
+
+}
+.div{
+position: absolute;
+width: 480px;
+height: 476px;
+left: 800px;
+top: 274px;
+
+background: #F9F9FB;
+border-radius: 4px;
+}
+.div h3{
+color: black;
+position: absolute;
+width: 100px;
+height: 47px;
+left: 182px;
+top: 28px;
+text-align: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 47px;
+}
+.e-mail{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 12px;
+border: none;
+    
+position: absolute;
+width: 350px;
+height: 34px;
+left: 825px;
+top: 415px;
+background: rgba(113, 128, 185, 0.32);
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: 10px;
+padding: 0.5% 2%;
+}
+.senha{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 12px;
+border: none;
+
+
+position: absolute;
+width: 350px;
+height: 35px;
+left: 825px;
+top: 490px;
+
+background: rgba(113, 128, 185, 0.32);
+border-radius: 4px;
+background-repeat: no-repeat;
+background-position: 10px;
+padding: 0.5% 2%;
+}
+.button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 16px;
+border: none;
+position: absolute;
+width: 425px;
+height: 45px;
+left: 825px;
+top: 557px;
+
+background: #7180B9;
+border-radius: 4px;
+}
+hr{
+position: absolute;
+width: 124px;
+height: 0px;
+left: 978px;
+top: 625px;
+border: 2px solid rgba(0, 0, 0, 0.32);
+}
+.palavra h4{
+position: absolute;
+width: 127px;
+height: 24px;
+left: 840px;
+top: 657px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.Git button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 16px;
+border: none;
+
+position: absolute;
+width: 260px;
+height: 35px;
+left: 996px;
+top: 680px;
+
+background: #7180B9;
+border-radius: 4px;
+}
+input.e-mail{
+    background-image: url(../img/EnvelopeSimple.svg);
+}
+input.senha{
+    background-image: url(../img/Lock.svg);
+}
+button:hover{
+    cursor: "pointer";
+}
